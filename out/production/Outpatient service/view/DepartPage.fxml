@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DepartPage">
+   <children>
+      <Button fx:id="firstDepartment" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="妇产科" textAlignment="CENTER" />
+      <Button fx:id="secondDepartment" layoutX="164.0" layoutY="10.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="儿科" />
+      <Button fx:id="thirdDepartment" layoutX="314.0" layoutY="10.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="外科" />
+      <Button fx:id="fourthDepartment" layoutX="470.0" layoutY="10.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="内科" />
+      <Button fx:id="fifthDepartment" layoutX="16.0" layoutY="92.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="神经科" />
+      <Button fx:id="sixthDepartment" layoutX="164.0" layoutY="92.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="皮肤科" />
+      <Button fx:id="seventhDepartment" layoutX="314.0" layoutY="92.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="眼科" />
+      <Button fx:id="eighthDepartment" layoutX="470.0" layoutY="92.0" mnemonicParsing="false" onAction="#changeWindow" prefHeight="66.0" prefWidth="144.0" text="肛肠科" />
+   </children>
+</AnchorPane>

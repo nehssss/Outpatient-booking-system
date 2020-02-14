@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppointPage">
+   <children>
+      <Label layoutX="101.0" layoutY="25.0" prefHeight="20.0" prefWidth="79.0" text="Doctor：" textAlignment="CENTER" />
+      <Label fx:id="doctn" layoutX="216.0" layoutY="25.0" text="Label" />
+      <Label layoutX="101.0" layoutY="62.0" text="Worktime:" />
+      <Label fx:id="doctt" layoutX="216.0" layoutY="62.0" text="Label" />
+      <Label layoutX="107.0" layoutY="110.0" text="Name：" />
+      <TextField fx:id="patn" layoutX="189.0" layoutY="105.0" promptText="Please input your name" />
+      <TextField fx:id="patid" layoutX="189.0" layoutY="142.0" promptText="Please input your ID" />
+      <Label layoutX="106.0" layoutY="147.0" text="IDcard：" />
+      <Label layoutX="111.0" layoutY="185.0" text="Time：" />
+      <TextField fx:id="patt" layoutX="189.0" layoutY="180.0" promptText="Please input your time" />
+      <Button layoutX="322.0" layoutY="247.0" mnemonicParsing="false" onAction="#changeWindow" text="RETURN" />
+      <Button layoutX="189.0" layoutY="247.0" mnemonicParsing="false" onAction="#addPatient" text="Confirm" />
+      <Label fx:id="epatid" layoutX="414.0" layoutY="147.0" text="请输入身份证" textFill="#ea0505" />
+      <Label fx:id="epatn" layoutX="414.0" layoutY="110.0" text="请输入名字" textFill="#ea0505" />
+      <Label layoutX="421.0" layoutY="147.0" textFill="#ff0808" />
+      <Label fx:id="epatt" layoutX="414.0" layoutY="185.0" text="请输入你想预约的时间" textFill="#ea0505" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdministratorPage">
+   <children>
+      <Label layoutX="87.0" layoutY="91.0" text="USERNAME:" />
+      <TextField fx:id="username" layoutX="183.0" layoutY="86.0" />
+      <Label layoutX="86.0" layoutY="153.0" text="PASSWORD:" />
+      <PasswordField fx:id="password" layoutX="183.0" layoutY="148.0" />
+      <Button layoutX="231.0" layoutY="225.0" mnemonicParsing="false" onAction="#check" text="ENTER" />
+      <Label fx:id="wusername" layoutX="409.0" layoutY="91.0" text="请输入用户名" textFill="#ea0707" />
+      <Label fx:id="wpassword" layoutX="409.0" layoutY="153.0" text="请输入密码" textFill="#ea0707" />
+   </children>
+</AnchorPane>

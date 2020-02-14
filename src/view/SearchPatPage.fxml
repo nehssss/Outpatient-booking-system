@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchPatPage">
+   <children>
+      <Button fx:id="search" layoutX="261.0" layoutY="216.0" mnemonicParsing="false" onAction="#onSearch" text="SEARCH" />
+      <Label layoutX="141.0" layoutY="109.0" text="科室：" />
+      <Label layoutX="134.0" layoutY="170.0" text="身份证：" />
+      <TextField fx:id="office" layoutX="199.0" layoutY="104.0" />
+      <TextField fx:id="ID" layoutX="199.0" layoutY="165.0" />
+      <Label fx:id="eoffice" layoutX="426.0" layoutY="109.0" text="请输入科室名" textFill="#ea0909" />
+      <Label fx:id="eID" layoutX="419.0" layoutY="170.0" text="请输入身份证号" textFill="#ea0909" />
+   </children>
+</AnchorPane>

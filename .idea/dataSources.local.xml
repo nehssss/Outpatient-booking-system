@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="jdbc:hsqldb:file:D:/IDEAL/test/Outpatient service/lib\demo/" uuid="ef306eb1-e260-40a4-aba5-6dc4dd8e35d3">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="HSQLDB" exact-version="0.0" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
